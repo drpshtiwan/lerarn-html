@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learn Html - Lesson5: Table</title>
+	<style>
+		table{
+			width: 600px;
+		}
+		th,td,table{
+			border:1px solid #d6d6d6;
+			border-collapse: collapse;
+			text-align: center;
+			line-height: 30px;
+		}
+		th{
+			background-color: #565656;
+			border-color:#666666;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Student result</caption>
+		<tr>
+			<th>Subject</th>
+			<th colspan="2">Marks</th>
+		</tr>
+		<tr>
+			<td>Medicine</td>
+			<td>Medium</td>
+			<td>67</td>
+		</tr>
+		<tr>
+			<td>Surgery</td>
+			<td>Good</td>
+			<td>75</td>
+		</tr>
+	</table>
+	<br>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Kardo Qadir</th>
+		</tr>
+		<tr>
+			<td rowspan="2">Telephone:</td>
+			<td>9647500000000</td>
+		</tr>
+		<tr>
+			<td>9647500000000</td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learn Html - Lessson 10 - Input Types & Attributes</title>
+</head>
+<body>
+	<form action="" method="post" enctype="multipart/form-data">
+		<div>
+			<label for="fname">First Name</label>
+			<input type="text" name="fname" id="fname" value="Kardo Qadir" readonly>
+		</div>
+		<div>
+			<label for="lname">Last Name</label>
+			<input type="text" name="lname" id="lname" maxlength="10" autofocus placeholder="Write you last name">
+		</div>
+		<div>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email">
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password">
+		</div>
+		<div>
+			<input type="radio" name="gender" value="male" > Male <br> 
+			<input type="radio" name="gender" value="female" checked> Female <br> 
+		</div>
+		<div>
+			<label for="checkbox">Do you want wtach?</label>
+			<input type="checkbox" name="watching" value="tv" checked> TV, 
+			<input type="checkbox" name="watching" value="mobile" checked> Mobile, 
+			<input type="checkbox" name="watching" value="ostv" > OsTV, 
+		</div>
+		<div>
+			<input type="file" name="file[]" multiple required>
+		</div>
+		<br>
+		<div>
+			<input type="submit" value="Send">
+			<input type="reset" value="Reset">
+		</div>
+	</form>
+</body>
+</html>	
